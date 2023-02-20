@@ -33,9 +33,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 18px;
-  /*.image:hover:before {
-            background: rgba(0, 138, 184, .5);	
-        }*/
 }
 .container .tarjeta .image {
   display: block;
@@ -65,6 +62,7 @@ body {
 .container .tarjeta .image:hover:before {
   transition: none;
   background: no-repeat center url("/images/icon-view.svg"), linear-gradient(rgba(0, 149, 164, 0.5), rgba(0, 149, 164, 0.5));
+  cursor: pointer;
 }
 .container .tarjeta .info {
   display: block;
